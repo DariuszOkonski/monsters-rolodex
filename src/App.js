@@ -4,11 +4,7 @@ import CardList from "./components/card-list/card-list.component";
 
 class App extends Component {
   state = {
-    monsters: [
-      { name: "Frankenstein", id: "asc1" },
-      { name: "Dracula", id: "asc2" },
-      { name: "Zombie", id: "asc3" }
-    ]
+    monsters: [],
   };
 
   componentDidMount() {
